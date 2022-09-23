@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ :root {
+  --ff-text: 'Roboto', sans-serif;
+
+  --fc-text: #E1E1E6;;
+
+  font-size: 62.5%;
+  --fs-button: 1.4rem;
+  --fs-heading: 4.8rem;
+  --fs-nav: 2.4rem;
+}
+
+
+body {
+  font-size: 1.6rem;
+  background-image: url(images/mountains-universe-1.png);
+  background-repeat: no-repeat;
+  
+  background-size: cover;
+  background-position: center center;
+  
+  min-height: 100vh;
+  display: grid;
+}
+
+.bg-1 {
+  background-image: url(images/mountains-universe-1.png);
+}
+
+.bg-2 {
+  background-image: url(images/mountains-universe-2.png);
+}
+
+.bg-3 {
+  background-image: url(images/mountains-universe-3.png);
+}
+
+
+body, nav, a, button {
+  font-family: var(--ff-text);
+  color: var(--fc-text);
+  text-decoration: none;
+}
+header {
+  justify-self: start;
+  align-self: top;
+  
+  padding-left: 7.2rem;
+  padding-top: 4.0rem
+}
+
+
+nav {
+  display: flex;
+  
+  justify-items: center;
+  align-items: center;
+  
+  gap: 4rem;
+  
+  font-size: var(--fs-nav);
+  
+  font-weight: normal;
+  
+  line-height: 2.5rem;
+  
+  
+}
+
+nav a {
+  transition: 200ms;
+}
+
+nav a:hover {
+  font-weight: bold;
+  transform: scale(1.2);
+}
+
+
+#app {
+  display: grid;
+  margin-bottom: 24rem;
+  margin-left: 10rem;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 4.8rem; 
+  
+  line-height: 125%;
+  
+  color: var(--fc-text);
+}
+
+.home{
+  justify-self: center;
+  margin-top: 17.2rem;
+  
+}
+
+button {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  
+  text-transform: uppercase;
+
+  background-color: transparent; 
+  cursor: pointer;
+
+  border: 2px solid #FFFFFF;
+  border-radius: .5rem;
+
+  padding: 12px 32px;
+
+  justify-self: center;
+  align-self: center;
+  margin-bottom: 29.4rem;
+}
+
+button:hover {
+  background-color: #E1E1E6;
+  color: #02799D;
+}
+
+p {
+  width: 64.8rem;
+  height: 20.3rem;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 160%;
+} 
